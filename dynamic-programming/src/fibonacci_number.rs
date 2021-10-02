@@ -2,7 +2,10 @@ struct Solution;
 
 impl Solution {
     pub fn fib(n: i32) -> i32 {
-
+        if n <= 1 {
+            return n;
+        }
+        return Solution::fib(n - 1) + Solution::fib(n - 2);
     }
 }
 
@@ -12,8 +15,8 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let actual = Solution::fib(n: i32)(3);
-        let expected = 2;
+        let actual = Solution::fib(4);
+        let expected = 3;
         assert_eq!(actual, expected);
     }
 }
