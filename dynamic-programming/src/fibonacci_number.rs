@@ -15,8 +15,8 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let actual = Solution::fib(4);
-        let expected = 3;
+        let actual = Solution::fib(3);
+        let expected = 2;
         assert_eq!(actual, expected);
     }
 }
