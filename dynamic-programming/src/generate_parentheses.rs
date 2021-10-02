@@ -29,7 +29,6 @@ impl Solution {
         let mut result: Vec<String> = Vec::new();
         let mut buf = vec!['-'; 2 * n as usize];
         Solution::backtrace(&mut result, &mut buf, 0, n as usize, 0, 0);
-        println!("{:?}", result);
         result
     }
 }

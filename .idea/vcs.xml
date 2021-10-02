@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/generate-parentheses" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/longest-common-subsequence" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/longest-valid-parentheses" vcs="Git" />
   </component>
 </project>
