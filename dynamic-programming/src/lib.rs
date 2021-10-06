@@ -15,6 +15,7 @@ mod maximum_subarray_sum_after_one_operation;
 mod min_cost_climbing_stairs;
 mod paint_house;
 mod paint_house_ii;
+mod toss_strange_coins;
 mod wiggle_subsequence;
 
 #[cfg(test)]
