@@ -17,11 +17,3 @@ mod paint_house;
 mod paint_house_ii;
 mod toss_strange_coins;
 mod wiggle_subsequence;
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}

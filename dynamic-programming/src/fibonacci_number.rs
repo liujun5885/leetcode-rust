@@ -14,7 +14,7 @@ mod tests {
     use crate::fibonacci_number::Solution;
 
     #[test]
-    fn it_works() {
+    fn case01() {
         let actual = Solution::fib(3);
         let expected = 2;
         assert_eq!(actual, expected);

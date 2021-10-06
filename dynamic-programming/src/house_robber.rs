@@ -19,7 +19,7 @@ impl Solution {
 mod tests {
     use crate::house_robber::Solution;
     #[test]
-    fn case_01() {
+    fn case01() {
         let actual = Solution::rob(vec![1, 2, 3, 1]);
         let expected = 4;
         assert_eq!(actual, expected);

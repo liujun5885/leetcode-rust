@@ -38,7 +38,7 @@ mod tests {
     use crate::generate_parentheses::Solution;
 
     #[test]
-    fn it_works() {
+    fn case01() {
         let actual = Solution::generate_parenthesis(3);
         let expected = vec!["((()))", "(()())", "(())()", "()(())", "()()()"];
         assert_eq!(actual, expected);

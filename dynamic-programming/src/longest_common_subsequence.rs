@@ -22,13 +22,12 @@ impl Solution {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use crate::longest_common_subsequence::Solution;
 
     #[test]
-    fn it_works() {
+    fn case01() {
         let text1 = String::from("baaaccee");
         let text2 = String::from("ace");
         let actual = Solution::longest_common_subsequence(text1, text2);
@@ -36,4 +35,3 @@ mod tests {
         assert_eq!(actual, expected);
     }
 }
-

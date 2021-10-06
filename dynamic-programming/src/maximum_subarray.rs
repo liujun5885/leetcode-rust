@@ -21,7 +21,7 @@ impl Solution {
 mod tests {
     use crate::maximum_subarray::Solution;
     #[test]
-    fn case_01() {
+    fn case01() {
         let nums = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];
         let actual = Solution::max_sub_array(nums);
         let expected = 6;

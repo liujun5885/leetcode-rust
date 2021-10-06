@@ -18,7 +18,7 @@ mod tests {
     use crate::min_cost_climbing_stairs::Solution;
 
     #[test]
-    fn it_works_01() {
+    fn case01() {
         let cost = vec![1, 100, 1, 1, 1, 100, 1, 1, 100, 1];
         let actual = Solution::min_cost_climbing_stairs(cost);
         let expected = 6;
@@ -26,7 +26,7 @@ mod tests {
     }
 
     #[test]
-    fn it_works_02() {
+    fn case02() {
         let cost = vec![10, 15, 20];
         let actual = Solution::min_cost_climbing_stairs(cost);
         let expected = 15;

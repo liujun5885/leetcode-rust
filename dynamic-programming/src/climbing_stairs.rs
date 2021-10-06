@@ -19,7 +19,7 @@ mod tests {
     use crate::climbing_stairs::Solution;
 
     #[test]
-    fn it_works() {
+    fn case01() {
         let actual = Solution::climb_stairs(4);
         let expected = 5;
         assert_eq!(actual, expected);

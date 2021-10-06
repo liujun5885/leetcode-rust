@@ -17,7 +17,10 @@ impl Solution {
                 }
                 dp[i] = max_length + 2;
             }
-            if char_vector[i - 1] == ')' && i - dp[i - 1] >= 1 && char_vector[i - dp[i - 1] - 1] == '(' {
+            if char_vector[i - 1] == ')'
+                && i - dp[i - 1] >= 1
+                && char_vector[i - dp[i - 1] - 1] == '('
+            {
                 let mut max_length = 0;
                 if i - dp[i - 1] > 1 {
                     max_length = dp[i - dp[i - 1] - 2];
@@ -35,7 +38,7 @@ impl Solution {
 mod tests {
     use crate::longest_valid_parentheses::Solution;
     #[test]
-    fn it_works() {
+    fn case01() {
         let actual = Solution::longest_valid_parentheses(String::from("()(())"));
         let expected = 6;
         assert_eq!(actual, expected);
