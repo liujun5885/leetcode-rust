@@ -13,6 +13,7 @@ mod maximum_product_subarray;
 mod maximum_subarray;
 mod maximum_subarray_sum_after_one_operation;
 mod min_cost_climbing_stairs;
+mod minimum_ascii_delete_sum_for_two_strings;
 mod paint_house;
 mod paint_house_ii;
 mod toss_strange_coins;
