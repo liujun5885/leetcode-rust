@@ -7,6 +7,8 @@ mod generate_parentheses;
 mod house_robber;
 mod house_robber_ii;
 mod longest_common_subsequence;
+mod longest_increasing_subsequence;
+mod longest_palindromic_substring;
 mod longest_valid_parentheses;
 mod max_consecutive_ones_ii;
 mod maximum_product_subarray;
